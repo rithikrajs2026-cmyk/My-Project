@@ -1,0 +1,13 @@
+# 1. System Repository Update
+sudo apt update && sudo apt upgrade -y
+# 2. Computer Vision Library
+pip3 install opencv-python
+# 3. IoT Communication Library
+pip3 install blynklib
+# 4. HTTP Protocol Library (for API requests)
+pip3 install requests
+# 5. Numerical Processing Library
+pip3 install numpy
+# 6. TensorFlow Lite Runtime Environment
+# Optimized for model inference on edge devices
+pip3 install tflite-runtime
